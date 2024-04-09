@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Extensions.Configuration;
-using SmsIrRestful;
+﻿using Microsoft.Extensions.Configuration;
+using SmsIrRestfulNetCore;
 
 namespace _0_Framework.Application.Sms
 {

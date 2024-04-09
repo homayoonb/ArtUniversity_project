@@ -1,0 +1,16 @@
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\bin\Debug\net8.0\ArtUnivercity.Application.Contract.deps.json
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\bin\Debug\net8.0\ArtUnivercity.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\bin\Debug\net8.0\ArtUnivercity.Application.Contract.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\bin\Debug\net8.0\0_FrameWork.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\bin\Debug\net8.0\0_FrameWork.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.AssemblyInfo.cs
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.sourcelink.json
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnive.2A960400.Up2Date
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\refint\ArtUnivercity.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ArtUnivercity.Application.Contract.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivercity.Application.Contract\obj\Debug\net8.0\ref\ArtUnivercity.Application.Contract.dll

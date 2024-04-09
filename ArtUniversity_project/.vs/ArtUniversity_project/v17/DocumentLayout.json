@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\hostservice\\areas\\administrator\\pages\\artuniversity\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|solutionrelative:hostservice\\areas\\administrator\\pages\\artuniversity\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3214AE4-D668-49D4-B487-3124385BF376}|ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\artunivercity.application.contract\\student\\createstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3214AE4-D668-49D4-B487-3124385BF376}|ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj|solutionrelative:artunivercity.application.contract\\student\\createstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CB9610-56F1-427D-AAE7-1346CDEBF684}|ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\artunivercity.domain\\studentdomain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CB9610-56F1-427D-AAE7-1346CDEBF684}|ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj|solutionrelative:artunivercity.domain\\studentdomain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\hostservice\\areas\\administrator\\pages\\artuniversity\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|solutionrelative:hostservice\\areas\\administrator\\pages\\artuniversity\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290510F9-6840-4332-837F-53915A057037}|0_FrameWork\\0_FrameWork.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\0_framework\\application\\validationmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290510F9-6840-4332-837F-53915A057037}|0_FrameWork\\0_FrameWork.csproj|solutionrelative:0_framework\\application\\validationmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160DF82-D5AD-4382-B6EA-C90450003AC5}|ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\artuniversity.infrastucture\\mapping\\studentmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3160DF82-D5AD-4382-B6EA-C90450003AC5}|ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj|solutionrelative:artuniversity.infrastucture\\mapping\\studentmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CB9610-56F1-427D-AAE7-1346CDEBF684}|ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\artunivercity.domain\\studentdomain\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CB9610-56F1-427D-AAE7-1346CDEBF684}|ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj|solutionrelative:artunivercity.domain\\studentdomain\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\hostservice\\areas\\administrator\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|solutionrelative:hostservice\\areas\\administrator\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\hostservice\\areas\\administrator\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|solutionrelative:hostservice\\areas\\administrator\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|c:\\users\\homayoon\\desktop\\artuniversity_project\\artuniversity_project\\hostservice\\wwwroot\\admintheme\\assets\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1D28BD01-F8ED-4162-BE72-560A480E517C}|HostService\\HostService.csproj|solutionrelative:hostservice\\wwwroot\\admintheme\\assets\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +99,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateStudent.cs",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\Student\\CreateStudent.cs",
+              "RelativeDocumentMoniker": "ArtUnivercity.Application.Contract\\Student\\CreateStudent.cs",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\Student\\CreateStudent.cs",
+              "RelativeToolTip": "ArtUnivercity.Application.Contract\\Student\\CreateStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:11:49.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Create.cshtml*",
+              "RelativeToolTip": "HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Create.cshtml*",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T08:09:52.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Index.cshtml",
+              "RelativeToolTip": "HostService\\Areas\\Administrator\\Pages\\ArtUniversity\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T08:09:48.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\StudentDomain\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "ArtUnivercity.Domain\\StudentDomain\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\StudentDomain\\IStudentRepository.cs",
+              "RelativeToolTip": "ArtUnivercity.Domain\\StudentDomain\\IStudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:08:36.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HostService\\Areas\\Administrator\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HostService\\Areas\\Administrator\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T08:07:10.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+              "RelativeDocumentMoniker": "HostService\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+              "RelativeToolTip": "HostService\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-09T08:04:48.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "HostService\\Areas\\Administrator\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\Areas\\Administrator\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "HostService\\Areas\\Administrator\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T08:04:01.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentMapping.cs",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\Mapping\\StudentMapping.cs",
+              "RelativeDocumentMoniker": "ArtUniversity.Infrastucture\\Mapping\\StudentMapping.cs",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\Mapping\\StudentMapping.cs",
+              "RelativeToolTip": "ArtUniversity.Infrastucture\\Mapping\\StudentMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:03:27.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\StudentDomain\\Student.cs",
+              "RelativeDocumentMoniker": "ArtUnivercity.Domain\\StudentDomain\\Student.cs",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\StudentDomain\\Student.cs",
+              "RelativeToolTip": "ArtUnivercity.Domain\\StudentDomain\\Student.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:57:27.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidationMessages.cs",
+              "DocumentMoniker": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\Application\\ValidationMessages.cs",
+              "RelativeDocumentMoniker": "0_FrameWork\\Application\\ValidationMessages.cs",
+              "ToolTip": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\Application\\ValidationMessages.cs",
+              "RelativeToolTip": "0_FrameWork\\Application\\ValidationMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:56:54.678Z",
+              "EditorCaption": ""
             }
           ]
         }

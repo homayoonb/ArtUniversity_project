@@ -1,0 +1,534 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastructure.Connfiguration\\ArtUniversity.Connfiguration.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj",
+        "projectName": "0_FrameWork",
+        "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj",
+        "packagesPath": "C:\\Users\\homayoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\homayoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "RestSharp.Newtonsoft.Json.Extensions": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "RestSharp.Serializers.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "SmsIrRestfulNetCore": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj",
+        "projectName": "ArtUnivercity.Application.Contract",
+        "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\homayoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\homayoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj",
+        "projectName": "ArtUnivercity.Domain",
+        "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj",
+        "packagesPath": "C:\\Users\\homayoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\homayoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\0_FrameWork\\0_FrameWork.csproj"
+              },
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Application\\ArtUniversity.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Application\\ArtUniversity.Application.csproj",
+        "projectName": "ArtUniversity.Application",
+        "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Application\\ArtUniversity.Application.csproj",
+        "packagesPath": "C:\\Users\\homayoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\homayoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Application.Contract\\ArtUnivercity.Application.Contract.csproj"
+              },
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastructure.Connfiguration\\ArtUniversity.Connfiguration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastructure.Connfiguration\\ArtUniversity.Connfiguration.csproj",
+        "projectName": "ArtUniversity.Connfiguration",
+        "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastructure.Connfiguration\\ArtUniversity.Connfiguration.csproj",
+        "packagesPath": "C:\\Users\\homayoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastructure.Connfiguration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\homayoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj"
+              },
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Application\\ArtUniversity.Application.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Application\\ArtUniversity.Application.csproj"
+              },
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj",
+        "projectName": "ArtUniversity.Infrastucture.EfCore",
+        "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\ArtUniversity.Infrastucture.EfCore.csproj",
+        "packagesPath": "C:\\Users\\homayoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUniversity.Infrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\homayoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj": {
+                "projectPath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\ArtUnivercity.Domain\\ArtUnivercity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
