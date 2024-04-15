@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace ArtUniversity.Application.Student
 {
@@ -47,9 +48,43 @@ namespace ArtUniversity.Application.Student
             return editStudent;
         }
 
-        public List<StudentViewModel> Search(StudentSearchModel search)
+        public OperationResult Removed(long id)
         {
-            var result = _studentRepository.Search(search);
+            var operationResult = new OperationResult();
+
+            var student = _studentRepository.Get(id);
+            if (student == null)
+            {
+                return operationResult.Failed(ApplicationMessages.RecordNotFound);
+            }
+
+            student.Remove();
+
+            _studentRepository.SaveChanges();
+
+            return operationResult.Succedded();
+        }
+
+        public OperationResult Restored(long id)
+        {
+            var operationResult = new OperationResult();
+
+            var student = _studentRepository.Get(id);
+            if (student == null)
+            {
+                return operationResult.Failed(ApplicationMessages.RecordNotFound);
+            }
+
+            student.Restore();
+
+            _studentRepository.SaveChanges();
+
+            return operationResult.Succedded();
+        }
+
+        public List<StudentViewModel> Search(StudentSearchModel searchModel)
+        {
+            var result = _studentRepository.Search(searchModel);
             return result;
         }
 

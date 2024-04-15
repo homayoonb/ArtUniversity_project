@@ -22,6 +22,236 @@ namespace ArtUniversity.Infrastucture.EfCore.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ArtUnivercity.Domain.CourseDomain.Course", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CourseName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<long>("FieldOfStudyAndOrientationId")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("KeyWord")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FieldOfStudyAndOrientationId");
+
+                    b.ToTable("Courses", (string)null);
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.DepartmentDomain.Department", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DepartMentName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("GroupStudyId")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("KeyWord")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GroupStudyId");
+
+                    b.ToTable("DepartMents", (string)null);
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.FieldOfStudyAndOrientationDomain.FieldOfStudyAndOrientation", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<long>("DepartmentId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Gerayesh")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("KeyWord")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("MaghtaeReshtehTahsili")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("FieldOfStudyAndOrientations", (string)null);
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.GroupStudyDomain.GroupStudy", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("CourseId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("GroupName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("KeyWord")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("ProfessorId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Term")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Year")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("ProfessorId");
+
+                    b.ToTable("GroupStudies", (string)null);
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.ProfessorDomain.Professor", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("KeyWord")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProfessorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telephone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Professors", (string)null);
+                });
+
             modelBuilder.Entity("ArtUnivercity.Domain.StudentDomain.Student", b =>
                 {
                     b.Property<long>("Id")
@@ -52,6 +282,9 @@ namespace ArtUniversity.Infrastucture.EfCore.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("KeyWord")
                         .IsRequired()
@@ -106,6 +339,83 @@ namespace ArtUniversity.Infrastucture.EfCore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Students", (string)null);
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.CourseDomain.Course", b =>
+                {
+                    b.HasOne("ArtUnivercity.Domain.FieldOfStudyAndOrientationDomain.FieldOfStudyAndOrientation", "FieldOfStudyAndOrientation")
+                        .WithMany("Courses")
+                        .HasForeignKey("FieldOfStudyAndOrientationId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("FieldOfStudyAndOrientation");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.DepartmentDomain.Department", b =>
+                {
+                    b.HasOne("ArtUnivercity.Domain.GroupStudyDomain.GroupStudy", "GroupStudy")
+                        .WithMany("Departments")
+                        .HasForeignKey("GroupStudyId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("GroupStudy");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.FieldOfStudyAndOrientationDomain.FieldOfStudyAndOrientation", b =>
+                {
+                    b.HasOne("ArtUnivercity.Domain.DepartmentDomain.Department", "Department")
+                        .WithMany("FieldOfStudyAndOrientations")
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Department");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.GroupStudyDomain.GroupStudy", b =>
+                {
+                    b.HasOne("ArtUnivercity.Domain.CourseDomain.Course", "Course")
+                        .WithMany("GroupStudies")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("ArtUnivercity.Domain.ProfessorDomain.Professor", "Professor")
+                        .WithMany("GroupStudies")
+                        .HasForeignKey("ProfessorId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Professor");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.CourseDomain.Course", b =>
+                {
+                    b.Navigation("GroupStudies");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.DepartmentDomain.Department", b =>
+                {
+                    b.Navigation("FieldOfStudyAndOrientations");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.FieldOfStudyAndOrientationDomain.FieldOfStudyAndOrientation", b =>
+                {
+                    b.Navigation("Courses");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.GroupStudyDomain.GroupStudy", b =>
+                {
+                    b.Navigation("Departments");
+                });
+
+            modelBuilder.Entity("ArtUnivercity.Domain.ProfessorDomain.Professor", b =>
+                {
+                    b.Navigation("GroupStudies");
                 });
 #pragma warning restore 612, 618
         }

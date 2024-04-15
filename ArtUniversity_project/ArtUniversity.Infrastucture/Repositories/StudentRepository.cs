@@ -48,16 +48,16 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
             var items = _dbContext.Students.Select(x => new StudentViewModel()
             {
                 Id = x.Id,
-                Name = x.Name + " " + x.Family,
-                PersenalyCode = x.PersenalyCode,
-                NationalCode = x.NationalCode,
-                MobileNumber = x.MobileNumber,
-                Description = x.Description,
-                Address = x.Address,
-                FatherName = x.FatherName,
+                Name = x.Name.Trim()+" "+x.Family.Trim(),
+                PersenalyCode = x.PersenalyCode.Trim(),
+                NationalCode = x.NationalCode.Trim(),
+                MobileNumber = x.MobileNumber.Trim(),
+                Description = x.Description.Trim(),
+                Address = x.Address.Trim(),
+                FatherName = x.FatherName.Trim(),
                 CreationDate = x.CreationDate.ToFarsi(),
-                Picture = x.Picture,
-
+                Picture = x.Picture.Trim(),
+                IsStated=x.IsDeleted
             });
 
 
@@ -65,24 +65,26 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
             return items.ToList();
         }
 
-        public List<StudentViewModel> Search(StudentSearchModel search)
+        public List<StudentViewModel> Search(StudentSearchModel searchModel)
         {
             var query = _dbContext.Students.Select(x => new StudentViewModel()
             {
                 Id = x.Id,
-                Name = x.Name.Trim() + " " + x.Family.Trim(),
+                Name = x.Name.Trim()+" "+x.Family,
                 FatherName = x.FatherName.Trim(),
                 PersenalyCode = x.PersenalyCode.Trim(),
                 NationalCode = x.NationalCode.Trim(),
                 MobileNumber = x.MobileNumber.Trim(),
                 Address = x.Address.Trim(),
                 Description = x.Description.Trim(),
-                CreationDate = x.CreationDate.ToString()
+                CreationDate = x.CreationDate.ToFarsi(),
+                Picture=x.Picture,
+                IsStated=x.IsDeleted
             });
 
-            if (string.IsNullOrEmpty(search.Name))
+            if (!string.IsNullOrWhiteSpace(searchModel.Name))
             {
-                query=query.Where(x=>x.Name.Contains(search.Name)); 
+                query=query.Where(x=>x.Name.Contains(searchModel.Name.Trim())); 
             }
 
             return query.OrderByDescending(x=>x.Id).ToList();

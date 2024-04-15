@@ -12,6 +12,6 @@
         public string Description { get; set; }
         public string Picture { get;  set; }
         public string? CreationDate { get; set; }
-        public int StudentCount { get; set; }
+        public bool IsStated { get; set; }
     }
 }

@@ -7,14 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CourseDomain\" />
-    <Folder Include="GroupStudyDomain\" />
-    <Folder Include="FieldOfStudyAndOrientationDomain\" />
-    <Folder Include="DepartmentDomain\" />
-    <Folder Include="ProfessorDomain\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="RestSharp" Version="110.2.0" />
   </ItemGroup>
 

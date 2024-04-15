@@ -10,6 +10,9 @@ using _0_Framework.Application;
 
 namespace ArtUnivercity.Domain.StudentDomain
 {
+    /// <summary>
+    /// جدول دانشجویان
+    /// </summary>
     public class Student : EntityBase
     {
         public  string Name { get; private set; }
@@ -23,6 +26,7 @@ namespace ArtUnivercity.Domain.StudentDomain
         public string Picture { get; private set; }
         public string PictureAlt { get; private set; }
         public string PictureTitle { get; private set; }
+        public bool IsDeleted { get; private set; }
         ///<summary>
         /// ساختن صفحه
         /// </summary>
@@ -46,6 +50,7 @@ namespace ArtUnivercity.Domain.StudentDomain
             KeyWord = keyWord ?? throw new ArgumentNullException(nameof(keyWord));
             MetaDescription = metaDescription ?? throw new ArgumentNullException(nameof(metaDescription));
             Slug = slug ?? throw new ArgumentNullException(nameof(slug));
+            IsDeleted = false;
         }
 
         public void Edit(string name, string family, string fatherName, string persenalyCode, string nationalCode, string mobileNumber, string address, string description, string picture, string pictureAlt, string pictureTitle, string keyWord, string metaDescription, string slug)
@@ -64,6 +69,15 @@ namespace ArtUnivercity.Domain.StudentDomain
             KeyWord = keyWord ?? throw new ArgumentNullException(nameof(keyWord));
             MetaDescription = metaDescription ?? throw new ArgumentNullException(nameof(metaDescription));
             Slug = slug ?? throw new ArgumentNullException(nameof(slug));
+        }
+
+        public void Remove()
+        {
+            IsDeleted = true;
+        }
+        public void Restore()
+        {
+            IsDeleted = false;
         }
     }
 }

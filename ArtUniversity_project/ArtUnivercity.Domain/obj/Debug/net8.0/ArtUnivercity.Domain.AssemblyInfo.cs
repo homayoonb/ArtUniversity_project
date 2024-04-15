@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtUnivercity.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+299bb41571c856add24356209411c213905f2116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8af57527edfedb11c45771d4325900abfce6200")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtUnivercity.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtUnivercity.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

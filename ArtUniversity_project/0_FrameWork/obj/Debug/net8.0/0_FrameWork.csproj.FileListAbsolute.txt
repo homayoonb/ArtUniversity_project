@@ -1,0 +1,13 @@
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\bin\Debug\net8.0\0_FrameWork.deps.json
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\bin\Debug\net8.0\0_FrameWork.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\bin\Debug\net8.0\0_FrameWork.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.csproj.AssemblyReference.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.AssemblyInfoInputs.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.AssemblyInfo.cs
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.csproj.CoreCompileInputs.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.sourcelink.json
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\refint\0_FrameWork.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\0_FrameWork.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\0_FrameWork\obj\Debug\net8.0\ref\0_FrameWork.dll

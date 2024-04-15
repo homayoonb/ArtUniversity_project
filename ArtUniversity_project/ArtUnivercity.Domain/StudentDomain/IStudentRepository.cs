@@ -12,6 +12,6 @@ namespace ArtUnivercity.Domain.StudentDomain
     {
         EditStudent GetDetails(long id);
         List<StudentViewModel> GetStudents();
-        List<StudentViewModel> Search(StudentSearchModel search);
+        List<StudentViewModel> Search(StudentSearchModel searchModel);
     }
 }
