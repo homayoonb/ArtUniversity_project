@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtUniversity.Infrastucture.EfCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+051d03114b75aa1a161342302a2854842063a6d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6c225c027bb39a891746858ebe7777b40a973f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtUniversity.Infrastucture.EfCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtUniversity.Infrastucture.EfCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
