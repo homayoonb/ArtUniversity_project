@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Infrastructure;
+using ArtUnivercity.Application.Contract.Course;
 using ArtUnivercity.Domain.CourseDomain;
 using ArtUniversity.Infrastucture.EfCore.ArtUniversityDbContext;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,21 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
         public CourseRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public EditCourse GetDetails(long id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<CourseViewModel> GetStudents()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<CourseViewModel> Search(CourseSearchModel searchModel)
+        {
+            throw new NotImplementedException();
         }
     }
 }

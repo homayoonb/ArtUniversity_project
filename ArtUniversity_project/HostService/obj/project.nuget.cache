@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1XOFMyw5rE4wjvMDowRY21NbDI1ReG+rHM3S0e3ynR4v2CJ5G43Ry0erkKWgLEfZW5s+Ehm0ERDsy60gydwaHA==",
+  "dgSpecHash": "uhMB3OpKS2eoR+XbKB7TilqeN+ZQfjXbMxQduJzfFdNXG/YwMnGWJdTkedcBVjbIc8c0ciiw5NV1gji3rIAGNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\homayoon\\Desktop\\ArtUniversity_project\\ArtUniversity_project\\HostService\\HostService.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,7 @@
     "C:\\Users\\homayoon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\homayoon\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\homayoon\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\homayoon\\.nuget\\packages\\microsoft.typescript.msbuild\\5.4.4\\microsoft.typescript.msbuild.5.4.4.nupkg.sha512",
     "C:\\Users\\homayoon\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\homayoon\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\homayoon\\.nuget\\packages\\mimekit\\4.4.0\\mimekit.4.4.0.nupkg.sha512",

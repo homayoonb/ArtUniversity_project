@@ -3,3 +3,58 @@
 *@
 @{
 }
+
+<div class="left side-menu">
+    <div class="sidebar-inner slimScrollDiv">
+        <div class="user-details">
+            <div class="pull-right">
+                <img src="~/AdminTheme/images/DSC_0017-1-1.jpg" alt="" class="thumb-md img-circle">
+            </div>
+            <div class="user-info">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">همایون بلندیان<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-lock"></i> Lock screen</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a></li>
+                    </ul>
+                </div>
+
+                <p class="text-muted m-0">مدیر سیستم</p>
+            </div>
+        </div>
+        <!--- Divider -->
+        <div id="sidebar-menu">
+            <ul>
+                <li>
+                    <a asp-page="/Index" class="waves-effect active"><i class="md md-home"></i><span> داشبورد </span></a>
+                </li>
+
+                <li class="has_sub">
+                    <a class="waves-effect"><i class="fa fa-user-md"></i><span> سیستم کاربران </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                    <ul class="list-unstyled">
+
+                        <li><a asp-page="/Accounts/Account/Index">کاربران</a></li>
+                        <li><a asp-page="/Accounts/Role/Index">نقش ها</a></li>
+                    </ul>
+                </li>
+
+                <li class="has_sub">
+                    <a  class="waves-effect"><i class="md md-mail"></i><span> دانشگاه </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                    <ul class="list-unstyled">
+                        <li><a>اسلایدر</a></li>
+                        <li><a asp-page="/ArtUniversity/Student/Index" >دانشجویان</a></li>
+                        <li><a asp-page="/ArtUniversity/Course/Index">دروس</a></li>
+                        <li><a asp-page="/ArtUniversity/GroupStudy/Index">گروه های درسی</a></li>
+                        <li><a asp-page="/ArtUniversity/Department/Index">دپارتمان ها</a></li>
+                        <li><a asp-page="/ArtUniversity/FieldOfStudyAndOrientation/Index">رشته های تحصیلی</a></li>
+                        <li><a asp-page="/ArtUniversity/Professor/Index">اساتید</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

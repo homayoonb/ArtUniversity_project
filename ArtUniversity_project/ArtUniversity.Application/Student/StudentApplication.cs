@@ -13,10 +13,11 @@ namespace ArtUniversity.Application.Student
     public class StudentApplication : IStudentApplication
     {
         private readonly IStudentRepository _studentRepository;
-
-        public StudentApplication(IStudentRepository studentRepository)
+        private readonly IFileUploader _fileUploader;
+        public StudentApplication(IStudentRepository studentRepository, IFileUploader fileUploader)
         {
             _studentRepository = studentRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateStudent command)
@@ -28,7 +29,9 @@ namespace ArtUniversity.Application.Student
             }
 
             var slug = command.Slug.Slugify();
-            var student = new ArtUnivercity.Domain.StudentDomain.Student(command.Name.Trim(), command.Family.Trim(), command.FatherName.Trim(), command.PersenalyCode.Trim(), command.NationalCode.Trim(), command.MobileNumber.Trim(), command.Address.Trim(), command.Description.Trim(), command.Picture.Trim(), command.PictureAlt.Trim(), command.PictureTitle.Trim(), command.KeyWord.Trim(), command.MetaDescription.Trim(), slug.Trim());
+            var picturePath = $"{command.Slug}";
+            var pictureName = _fileUploader.Upload(command.Picture, picturePath);
+            var student = new ArtUnivercity.Domain.StudentDomain.Student(command.Name.Trim(), command.Family.Trim(), command.FatherName.Trim(), command.PersenalyCode.Trim(), command.NationalCode.Trim(), command.MobileNumber.Trim(), command.Address.Trim(), command.Description.Trim(), pictureName, command.PictureAlt.Trim(), command.PictureTitle.Trim(), command.KeyWord.Trim(), command.MetaDescription.Trim(), slug.Trim());
 
             _studentRepository.Create(student);
 
@@ -104,7 +107,9 @@ namespace ArtUniversity.Application.Student
             }
 
             var slug = command.Slug.Slugify();
-            student.Edit(command.Name.Trim(), command.Family.Trim(), command.FatherName.Trim(), command.PersenalyCode.Trim(), command.NationalCode.Trim(), command.MobileNumber.Trim(), command.Address.Trim(), command.Description.Trim(), command.Picture.Trim(), command.PictureAlt.Trim(), command.PictureTitle.Trim(), command.KeyWord.Trim(), command.MetaDescription.Trim(), slug.Trim());
+            var picturePath = $"{command.Slug}";
+            var pictureName=_fileUploader.Upload(command.Picture,picturePath);
+            student.Edit(command.Name.Trim(), command.Family.Trim(), command.FatherName.Trim(), command.PersenalyCode.Trim(), command.NationalCode.Trim(), command.MobileNumber.Trim(), command.Address.Trim(), command.Description.Trim(), pictureName, command.PictureAlt.Trim(), command.PictureTitle.Trim(), command.KeyWord.Trim(), command.MetaDescription.Trim(), slug.Trim());
 
             _studentRepository.SaveChanges();
 

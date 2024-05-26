@@ -15,4 +15,8 @@
     <ProjectReference Include="..\ArtUnivercity.Domain\ArtUnivercity.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EnumTools\" />
+  </ItemGroup>
+
 </Project>

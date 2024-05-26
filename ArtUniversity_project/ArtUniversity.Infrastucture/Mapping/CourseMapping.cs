@@ -17,7 +17,7 @@ namespace ArtUniversity.Infrastucture.EfCore.Mapping
 
             builder.HasKey(x => x.Id);
 
-            builder.HasOne(x => x.FieldOfStudyAndOrientation)
+            builder.HasOne(x => x.FieldOfStudyAndOrientations)
                 .WithMany(x => x.Courses)
                 .HasForeignKey(x => x.FieldOfStudyAndOrientationId).OnDelete(DeleteBehavior.NoAction);
         }

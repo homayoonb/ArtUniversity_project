@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
 namespace ArtUnivercity.Application.Contract.Student
@@ -19,7 +20,7 @@ namespace ArtUnivercity.Application.Contract.Student
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string MobileNumber { get;  set; }
         public string Address { get;  set; }
-        public string Picture { get;  set; }
+        public IFormFile Picture { get;  set; }
         public string PictureAlt { get;  set; }
         public string PictureTitle { get;  set; }
         /// ساختن صفحه

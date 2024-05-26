@@ -17,12 +17,8 @@ namespace ArtUnivercity.Domain.FieldOfStudyAndOrientationDomain
         /// گرایش
         /// </summary>
         public string Gerayesh { get; set; }
-        public ICollection<Course> Courses { get; private set; }
-        /// <summary>
-        /// کد دانشکده
-        /// </summary>
-        public long DepartmentId { get; private set; }
-        public Department Department { get; private set; }
+        public ICollection<Course>? Courses { get; private set; }
+        public ICollection<Department>? Departments { get; set; }
         ///<summary>
         /// ساختن صفحه
         /// </summary>
@@ -31,25 +27,24 @@ namespace ArtUnivercity.Domain.FieldOfStudyAndOrientationDomain
         public string Slug { get; private set; }
         public bool IsDeleted { get; private set; }
 
-        public FieldOfStudyAndOrientation(string name, MaghtaeReshtehTahsili maghtaeReshtehTahsili, string gerayesh, long departmentId, string keyWord, string metaDescription, string slug)
+        public FieldOfStudyAndOrientation(string name, MaghtaeReshtehTahsili maghtaeReshtehTahsili, string gerayesh, string keyWord, string metaDescription, string slug)
         {
             Name = name;
             MaghtaeReshtehTahsili = maghtaeReshtehTahsili;
             Gerayesh = gerayesh;
-            DepartmentId = departmentId;
             KeyWord = keyWord;
             MetaDescription = metaDescription;
             Slug = slug;
+            Courses=new List<Course>();
+            Departments=new List<Department>();
             IsDeleted = false;
-            Courses = new List<Course>();
         }
 
-        public void Edit(string name, MaghtaeReshtehTahsili maghtaeReshtehTahsili, string gerayesh, long departmentId, string keyWord, string metaDescription, string slug)
+        public void Edit(string name, MaghtaeReshtehTahsili maghtaeReshtehTahsili, string gerayesh, string keyWord, string metaDescription, string slug)
         {
             Name = name;
             MaghtaeReshtehTahsili = maghtaeReshtehTahsili;
             Gerayesh = gerayesh;
-            DepartmentId = departmentId;
             KeyWord = keyWord;
             MetaDescription = metaDescription;
             Slug = slug;

@@ -18,6 +18,94 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\HostService
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xBY2NvdW50XENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xBY2NvdW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xBY2NvdW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xBY2NvdW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xSb2xlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xSb2xlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/Accounts/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBY2NvdW50c1xSb2xlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Course/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XENvdXJzZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Course/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XENvdXJzZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XENvdXJzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XERlcGFydG1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XERlcGFydG1lbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XERlcGFydG1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/FieldOfStudyAndOrientation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XEZpZWxkT2ZTdHVkeUFuZE9yaWVudGF0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/FieldOfStudyAndOrientation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XEZpZWxkT2ZTdHVkeUFuZE9yaWVudGF0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/FieldOfStudyAndOrientation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XEZpZWxkT2ZTdHVkeUFuZE9yaWVudGF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/GroupStudy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XEdyb3VwU3R1ZHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/GroupStudy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XEdyb3VwU3R1ZHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/GroupStudy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XEdyb3VwU3R1ZHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Professor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XFByb2Zlc3NvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Professor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XFByb2Zlc3NvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Professor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XFByb2Zlc3NvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/ArtUniversity/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRVbml2ZXJzaXR5XFN0dWRlbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +140,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Areas/Administrator/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Pages/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/homayoon/Desktop/ArtUniversity_project/ArtUniversity_project/HostService/Pages/Error.cshtml]

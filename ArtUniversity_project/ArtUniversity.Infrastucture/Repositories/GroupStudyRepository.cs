@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Infrastructure;
+using ArtUnivercity.Application.Contract.GroupStudy;
 using ArtUnivercity.Domain.GroupStudyDomain;
 using ArtUniversity.Infrastucture.EfCore.ArtUniversityDbContext;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,21 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
         public GroupStudyRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public EditGroupStudy GetDetails(long id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<GroupStudyViewModel> GetGroupStudies()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<GroupStudyViewModel> Search(GroupStudySearchModel searchModel)
+        {
+            throw new NotImplementedException();
         }
     }
 }

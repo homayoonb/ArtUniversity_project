@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HostService.styles.css" asp-append-version="true" />
+    <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
+    <link href="~/Theme/assets/css/style.css" rel="stylesheet">
+    <link href="~/Theme/assets/css/Custom.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -26,6 +29,20 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                     </ul>
+                    <ul>
+                        @if (AuthHelper.IsAuthenticated())
+                        {
+                            <li class="nav-item">
+                                <a asp-page="/Account" asp-page-handler="Logout">خروج</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a asp-page="/Account">ورود/ثبت نام</a>
+                            </li>
+                        }
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -36,16 +53,13 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - HostService - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
+    <script src="~/Theme/assets/js/vendors.js"></script>
+    <script src="~/Theme/assets/js/active.js"></script>
+    <script src="~/Theme/assets/js/plugins.js"></script>
+    <script src="~/Theme/assets/js/custom.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

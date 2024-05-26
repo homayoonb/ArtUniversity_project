@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "jquery-slimscroll@1.3.8",
+      "destination": "wwwroot/jquery-slimscroll/"
+    },
+    {
+      "library": "jquery-waypoints@2.0.5",
+      "destination": "wwwroot/jquery-waypoints/"
+    },
+    {
+      "library": "d3@7.9.0",
+      "destination": "wwwroot/d3/"
+    },
+    {
+      "library": "chart.js@4.4.2",
+      "destination": "wwwroot/chart.js/"
+    },
+    {
+      "library": "jquery-dashboard@1.1.4",
+      "destination": "wwwroot/jquery-dashboard/"
+    },
+    {
+      "library": "milsymbol@2.2.0",
+      "destination": "wwwroot/milsymbol/"
+    },
+    {
+      "library": "@kurkle/color@0.2.1",
+      "destination": "wwwroot/kurkle/color/"
+    },
+    {
+      "library": "chunks@0.2.6",
+      "destination": "wwwroot/chunks/"
+    },
+    {
+      "library": "c3.js@1.0.0",
+      "destination": "wwwroot/c3.js/"
+    },
+    {
+      "library": "c3@0.7.20",
+      "destination": "wwwroot/c3/"
+    },
+    {
+      "library": "jquery@3.7.1",
+      "destination": "wwwroot/lib/jquery/"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ namespace ArtUnivercity.Domain.CourseDomain
         public int Count { get; private set; }
         //کد رشته تحصیلی
         public long FieldOfStudyAndOrientationId { get; private set; }
-        public FieldOfStudyAndOrientation FieldOfStudyAndOrientation { get; private set; }
+        public FieldOfStudyAndOrientation FieldOfStudyAndOrientations { get; private set; }
         public ICollection<GroupStudy> GroupStudies { get; private set; }
         ///<summary>
         /// ساختن صفحه
@@ -29,25 +29,27 @@ namespace ArtUnivercity.Domain.CourseDomain
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
         public bool IsDeleted { get; private set; }
+
         public Course(string courseName, int count, long fieldOfStudyAndOrientationId, string keyWord, string metaDescription, string slug)
         {
-            CourseName = courseName ?? throw new ArgumentNullException(nameof(courseName));
+            CourseName = courseName;
             Count = count;
             FieldOfStudyAndOrientationId = fieldOfStudyAndOrientationId;
-            KeyWord = keyWord ?? throw new ArgumentNullException(nameof(keyWord));
-            MetaDescription = metaDescription ?? throw new ArgumentNullException(nameof(metaDescription));
-            Slug = slug ?? throw new ArgumentNullException(nameof(slug));
+            KeyWord = keyWord;
+            MetaDescription = metaDescription;
+            Slug = slug;
             IsDeleted = false;
-            GroupStudies = new List<GroupStudy>();
+            GroupStudies=new List<GroupStudy>();
         }
+
         public void Edit(string courseName, int count, long fieldOfStudyAndOrientationId, string keyWord, string metaDescription, string slug)
         {
-            CourseName = courseName ?? throw new ArgumentNullException(nameof(courseName));
+            CourseName = courseName;
             Count = count;
             FieldOfStudyAndOrientationId = fieldOfStudyAndOrientationId;
-            KeyWord = keyWord ?? throw new ArgumentNullException(nameof(keyWord));
-            MetaDescription = metaDescription ?? throw new ArgumentNullException(nameof(metaDescription));
-            Slug = slug ?? throw new ArgumentNullException(nameof(slug));
+            KeyWord = keyWord;
+            MetaDescription = metaDescription;
+            Slug = slug;
         }
 
         public void Remove()

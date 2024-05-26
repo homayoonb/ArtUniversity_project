@@ -17,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Domain\AccountManagement.Domain.csproj" />
     <ProjectReference Include="..\ArtUnivercity.Domain\ArtUnivercity.Domain.csproj" />
+    <ProjectReference Include="..\ArtUniversity.Application\ArtUniversity.Application.csproj" />
   </ItemGroup>
 
 </Project>

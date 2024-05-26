@@ -968,6 +968,23 @@
           "0_FrameWork.dll": {}
         }
       },
+      "AccountManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_FrameWork": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.Contract.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_FrameWork": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Domain.dll": {}
+        }
+      },
       "ArtUnivercity.Application.Contract/1.0.0": {
         "dependencies": {
           "0_FrameWork": "1.0.0",
@@ -999,7 +1016,9 @@
       },
       "ArtUniversity.Infrastucture.EfCore/1.0.0": {
         "dependencies": {
+          "AccountManagement.Domain": "1.0.0",
           "ArtUnivercity.Domain": "1.0.0",
+          "ArtUniversity.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "RestSharp": "110.2.0"
@@ -1640,6 +1659,16 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "0_FrameWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

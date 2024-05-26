@@ -6,6 +6,11 @@ using ArtUnivercity.Domain.ProfessorDomain;
 using ArtUnivercity.Domain.StudentDomain;
 using ArtUniversity.Infrastucture.EfCore.Mapping;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ArtUniversity.Infrastucture.EfCore.ArtUniversityDbContext
 {
@@ -16,8 +21,8 @@ namespace ArtUniversity.Infrastucture.EfCore.ArtUniversityDbContext
         public DbSet<Professor> Professors => Set<Professor>();
         public DbSet<GroupStudy> GroupStudies => Set<GroupStudy>();
         public DbSet<Department> Departments => Set<Department>();
-        public DbSet<FieldOfStudyAndOrientation> FieldOfStudyAndOrientations=>Set<FieldOfStudyAndOrientation>();
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public DbSet<FieldOfStudyAndOrientation> FieldOfStudyAndOrientations => Set<FieldOfStudyAndOrientation>();
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 

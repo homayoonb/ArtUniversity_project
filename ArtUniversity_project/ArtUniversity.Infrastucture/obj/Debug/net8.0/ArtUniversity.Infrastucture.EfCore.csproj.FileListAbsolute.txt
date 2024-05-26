@@ -3,10 +3,16 @@ C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUnivers
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUniversity.Infrastucture.EfCore.dll
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUniversity.Infrastucture.EfCore.pdb
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\0_FrameWork.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\AccountManagement.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\AccountManagement.Domain.dll
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUnivercity.Application.Contract.dll
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUnivercity.Domain.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUniversity.Application.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\AccountManagement.Domain.pdb
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUnivercity.Domain.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUniversity.Application.pdb
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\0_FrameWork.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\AccountManagement.Application.Contract.pdb
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\bin\Debug\net8.0\ArtUnivercity.Application.Contract.pdb
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\obj\Debug\net8.0\ArtUniversity.Infrastucture.EfCore.csproj.AssemblyReference.cache
 C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\ArtUniversity.Infrastucture\obj\Debug\net8.0\ArtUniversity.Infrastucture.EfCore.GeneratedMSBuildEditorConfig.editorconfig

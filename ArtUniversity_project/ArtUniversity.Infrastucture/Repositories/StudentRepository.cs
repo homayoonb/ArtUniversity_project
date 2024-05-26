@@ -29,7 +29,6 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
                 Description = x.Description.Trim(),
                 MetaDescription = x.MetaDescription.Trim(),
                 KeyWord = x.KeyWord.Trim(),
-                Picture = x.Picture.Trim(),
                 PictureAlt = x.PictureAlt.Trim(),
                 PictureTitle = x.PictureTitle.Trim(),
                 Slug = x.Slug.Trim()

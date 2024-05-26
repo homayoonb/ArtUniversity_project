@@ -1,0 +1,16 @@
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\bin\Debug\net8.0\AccountManagement.Application.Contract.deps.json
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\bin\Debug\net8.0\AccountManagement.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\bin\Debug\net8.0\AccountManagement.Application.Contract.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\bin\Debug\net8.0\0_FrameWork.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\bin\Debug\net8.0\0_FrameWork.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.sourcelink.json
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountM.563BDC4F.Up2Date
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\refint\AccountManagement.Application.Contract.dll
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\AccountManagement.Application.Contract.pdb
+C:\Users\homayoon\Desktop\ArtUniversity_project\ArtUniversity_project\AccountManagement.Application.Contract\obj\Debug\net8.0\ref\AccountManagement.Application.Contract.dll

@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Infrastructure;
+using ArtUnivercity.Application.Contract.Professor;
 using ArtUnivercity.Domain.ProfessorDomain;
 using ArtUniversity.Infrastucture.EfCore.ArtUniversityDbContext;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,21 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
         public ProfessorRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public EditProfessor GetDetails(long id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<ProfessorViewModel> GetProfessors()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<ProfessorViewModel> Search(ProfessorSearchModel searchModel)
+        {
+            throw new NotImplementedException();
         }
     }
 }

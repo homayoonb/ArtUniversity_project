@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Infrastructure;
+using ArtUnivercity.Application.Contract.Department;
 using ArtUnivercity.Domain.DepartmentDomain;
 using ArtUniversity.Infrastucture.EfCore.ArtUniversityDbContext;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,21 @@ namespace ArtUniversity.Infrastucture.EfCore.Repositories
         public DepartmentRepository(ApplicationDbContext dbContext) :base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public List<DepartmentViewModel> GetDepartments()
+        {
+            throw new NotImplementedException();
+        }
+
+        public EditDepartment GetDetails(long id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DepartmentViewModel> Search(DepartmentSearchModel searchModel)
+        {
+            throw new NotImplementedException();
         }
     }
 }

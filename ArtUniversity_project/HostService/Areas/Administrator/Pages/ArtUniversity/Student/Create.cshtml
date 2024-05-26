@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">نام</label>
                     <input type="text" class="form-control" asp-for="Name" onchange="makeSlug('Name', 'Slug')">
-                    <span asp-validation-for="Name" class="error"></span>
+                    <span asp-validation-for="Name"  class="error"></span>
                 </div>
                
             </div>
@@ -81,7 +81,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label asp-for="Picture" class="control-label">عکس</label>
-                    <input type="text" class="form-control" asp-for="Picture" accept="image/*">
+                    <input type="file" class="form-control" asp-for="Picture" accept="image/*">
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-                    <label asp-for="KeyWord" class="control-label fa-font">کلمات کلیدی</label>
+                    <label asp-for="KeyWord" class="control-label">کلمات کلیدی</label>
                     <input type="text" class="form-control" asp-for="KeyWord">
                     <span asp-validation-for="KeyWord" class="error"></span>
                 </div>

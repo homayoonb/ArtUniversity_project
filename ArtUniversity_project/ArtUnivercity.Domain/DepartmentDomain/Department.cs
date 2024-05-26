@@ -26,26 +26,28 @@ namespace ArtUnivercity.Domain.DepartmentDomain
         /// 
         public long GroupStudyId { get; private set; }
         public GroupStudy GroupStudy { get; private set; }
-        public ICollection<FieldOfStudyAndOrientation> FieldOfStudyAndOrientations { get; private set; }
+        public long FieldOfStudyAndOrientationId { get; private set; }
+        public FieldOfStudyAndOrientation FieldOfStudyAndOrientation { get; private set; }
 
-        public Department(string departMentName, string keyWord, string metaDescription, string slug, long groupStudyId)
+        public Department(string departMentName, string keyWord, string metaDescription, string slug, long groupStudyId, long fieldOfStudyAndOrientationId)
         {
             DepartMentName = departMentName;
             KeyWord = keyWord;
             MetaDescription = metaDescription;
             Slug = slug;
             GroupStudyId = groupStudyId;
+            FieldOfStudyAndOrientationId = fieldOfStudyAndOrientationId;
             IsDeleted = false;
-            FieldOfStudyAndOrientations=new List<FieldOfStudyAndOrientation>();
         }
 
-        public void Edit(string departMentName, string keyWord, string metaDescription, string slug, int groupStudyId)
+        public void Edit(string departMentName, string keyWord, string metaDescription, string slug, long groupStudyId, long fieldOfStudyAndOrientationId)
         {
             DepartMentName = departMentName;
             KeyWord = keyWord;
             MetaDescription = metaDescription;
             Slug = slug;
             GroupStudyId = groupStudyId;
+            FieldOfStudyAndOrientationId = fieldOfStudyAndOrientationId;
         }
 
         public void Remove()
